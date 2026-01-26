@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="yellowGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFE44D"/>
+      <stop offset="100%" style="stop-color:#D4B000"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="64" height="64" rx="12" fill="#000000"/>
+  <!-- R Letter -->
+  <text x="32" y="45" font-family="Arial, sans-serif" font-size="36" font-weight="900" fill="url(#yellowGradient)" text-anchor="middle">R</text>
+  <!-- Roof accent line -->
+  <path d="M12 20 L32 8 L52 20" stroke="url(#yellowGradient)" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

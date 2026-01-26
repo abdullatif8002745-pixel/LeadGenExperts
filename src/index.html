@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="REXX Roofing LLC - Premium residential and commercial roofing services. Expert roof repair, inspection, and installation. Get your free quote today!">
+    <meta name="keywords" content="roofing, roof repair, commercial roofing, residential roofing, roof inspection, REXX Roofing">
+    <meta name="author" content="REXX Roofing LLC">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="REXX Roofing LLC - Premium Roofing Solutions">
+    <meta property="og:description" content="Expert roofing services for residential and commercial properties. Quality craftsmanship, reliable service.">
+    <meta property="og:image" content="assets/og-image.jpg">
+    <meta property="og:url" content="https://rexxroofing.com">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="REXX Roofing LLC - Premium Roofing Solutions">
+    <meta name="twitter:description" content="Expert roofing services for residential and commercial properties.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>REXX Roofing LLC | Premium Roofing Solutions</title>
+
+    <!-- Schema.org Local Business Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "RoofingContractor",
+        "name": "REXX Roofing LLC",
+        "image": "https://rexxroofing.com/assets/logo.png",
+        "url": "https://rexxroofing.com",
+        "telephone": "+1-555-REXX-ROOF",
+        "email": "info@rexxroofing.com",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "123 Roofing Boulevard",
+            "addressLocality": "Your City",
+            "addressRegion": "State",
+            "postalCode": "12345",
+            "addressCountry": "US"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.7128,
+            "longitude": -74.0060
+        },
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "08:00",
+                "closes": "18:00"
+            },
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Saturday",
+                "opens": "09:00",
+                "closes": "14:00"
+            }
+        ],
+        "priceRange": "$$",
+        "areaServed": {
+            "@type": "GeoCircle",
+            "geoMidpoint": {
+                "@type": "GeoCoordinates",
+                "latitude": 40.7128,
+                "longitude": -74.0060
+            },
+            "geoRadius": "50 miles"
+        },
+        "sameAs": [
+            "https://facebook.com/rexxroofing",
+            "https://instagram.com/rexxroofing",
+            "https://linkedin.com/company/rexxroofing"
+        ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Loading Screen -->
+    <div id="loader" class="loader" aria-hidden="true">
+        <div class="loader-content">
+            <div class="loader-logo">
+                <span class="logo-text">REXX</span>
+                <span class="logo-sub">ROOFING</span>
+            </div>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+            <p class="loader-text">Loading Experience...</p>
+        </div>
+    </div>
+
+    <!-- Three.js Canvas Container -->
+    <canvas id="webgl-canvas" aria-hidden="true"></canvas>
+
+    <!-- Particle Background -->
+    <canvas id="particle-canvas" aria-hidden="true"></canvas>
+
+    <!-- Navigation -->
+    <nav class="main-nav" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo" aria-label="REXX Roofing Home">
+                <span class="logo-icon">R</span>
+                <span class="logo-name">REXX<span class="logo-highlight">ROOFING</span></span>
+            </a>
+
+            <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link active" data-section="0">Home</a></li>
+                <li><a href="#services" class="nav-link" data-section="1">Services</a></li>
+                <li><a href="#about" class="nav-link" data-section="2">About</a></li>
+                <li><a href="#projects" class="nav-link" data-section="3">Projects</a></li>
+                <li><a href="#testimonials" class="nav-link" data-section="4">Testimonials</a></li>
+                <li><a href="#contact" class="nav-link" data-section="5">Contact</a></li>
+            </ul>
+
+            <a href="#contact" class="nav-cta">Get Free Quote</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Scroll Container for 3D Sections -->
+        <div id="scroll-container">
+
+            <!-- Section 1: Hero -->
+            <section id="hero" class="section section-hero" data-section="0" aria-labelledby="hero-title">
+                <div class="section-content">
+                    <div class="hero-content">
+                        <div class="hero-badge">
+                            <span class="badge-icon">&#9733;</span>
+                            <span>Trusted Since 2010</span>
+                        </div>
+                        <h1 id="hero-title" class="hero-title">
+                            <span class="title-line">Premium</span>
+                            <span class="title-line highlight">Roofing</span>
+                            <span class="title-line">Solutions</span>
+                        </h1>
+                        <p class="hero-subtitle">Protecting Your Home with Excellence & Precision</p>
+                        <p class="hero-description">
+                            REXX Roofing LLC delivers industry-leading roofing services with unmatched
+                            craftsmanship. From residential repairs to commercial installations,
+                            we've got you covered.
+                        </p>
+                        <div class="hero-cta-group">
+                            <a href="#contact" class="btn btn-primary">
+                                <span>Get a Free Quote</span>
+                                <span class="btn-icon">&rarr;</span>
+                            </a>
+                            <a href="#services" class="btn btn-secondary">
+                                <span>Our Services</span>
+                            </a>
+                        </div>
+                        <div class="hero-stats">
+                            <div class="stat-item">
+                                <span class="stat-number" data-count="500">0</span>
+                                <span class="stat-suffix">+</span>
+                                <span class="stat-label">Projects Completed</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number" data-count="15">0</span>
+                                <span class="stat-suffix">+</span>
+                                <span class="stat-label">Years Experience</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number" data-count="100">0</span>
+                                <span class="stat-suffix">%</span>
+                                <span class="stat-label">Satisfaction Rate</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-visual">
+                        <div class="hero-3d-placeholder" aria-hidden="true">
+                            <!-- 3D House/Roof Model will be rendered here -->
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll-indicator" aria-hidden="true">
+                    <span class="scroll-text">Scroll to explore</span>
+                    <div class="scroll-arrow"></div>
+                </div>
+            </section>
+
+            <!-- Section 2: Services -->
+            <section id="services" class="section section-services" data-section="1" aria-labelledby="services-title">
+                <div class="section-content">
+                    <div class="section-header">
+                        <span class="section-label">What We Do</span>
+                        <h2 id="services-title" class="section-title">Our Services</h2>
+                        <p class="section-description">
+                            Comprehensive roofing solutions tailored to your needs.
+                            Quality materials, expert installation, lasting results.
+                        </p>
+                    </div>
+
+                    <div class="services-grid">
+                        <!-- Service Card 1: Residential Roofing -->
+                        <article class="service-card" data-service="residential">
+                            <div class="service-icon">
+                                <svg viewBox="0 0 64 64" aria-hidden="true">
+                                    <path d="M32 8L4 28v28h56V28L32 8z" fill="none" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M24 56V40h16v16" fill="none" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M4 28l28-20 28 20" fill="none" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <h3 class="service-title">Residential Roofing</h3>
+                            <p class="service-description">
+                                Complete roofing solutions for homes of all sizes. From asphalt shingles
+                                to premium metal roofing, we protect what matters most.
+                            </p>
+                            <ul class="service-features">
+                                <li>Asphalt Shingle Installation</li>
+                                <li>Metal Roofing Systems</li>
+                                <li>Tile & Slate Roofing</li>
+                                <li>Warranty Protection</li>
+                            </ul>
+                            <a href="#contact" class="service-link">
+                                Learn More <span>&rarr;</span>
+                            </a>
+                        </article>
+
+                        <!-- Service Card 2: Commercial Roofing -->
+                        <article class="service-card" data-service="commercial">
+                            <div class="service-icon">
+                                <svg viewBox="0 0 64 64" aria-hidden="true">
+                                    <rect x="8" y="20" width="48" height="36" fill="none" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M8 20l24-12 24 12" fill="none" stroke="currentColor" stroke-width="2"/>
+                                    <rect x="16" y="28" width="8" height="8" fill="none" stroke="currentColor" stroke-width="2"/>
+                                    <rect x="28" y="28" width="8" height="8" fill="none" stroke="currentColor" stroke-width="2"/>
+                                    <rect x="40" y="28" width="8" height="8" fill="none" stroke="currentColor" stroke-width="2"/>
+                                    <rect x="16" y="40" width="8" height="8" fill="none" stroke="currentColor" stroke-width="2"/>
+                                    <rect x="28" y="40" width="8" height="16" fill="none" stroke="currentColor" stroke-width="2"/>
+                                    <rect x="40" y="40" width="8" height="8" fill="none" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <h3 class="service-title">Commercial Roofing</h3>
+                            <p class="service-description">
+                                Industrial-grade roofing systems for businesses. Minimize downtime
+                                with our efficient installation and maintenance programs.
+                            </p>
+                            <ul class="service-features">
+                                <li>Flat Roof Systems</li>
+                                <li>TPO & EPDM Membranes</li>
+                                <li>Built-Up Roofing</li>
+                                <li>Preventive Maintenance</li>
+                            </ul>
+                            <a href="#contact" class="service-link">
+                                Learn More <span>&rarr;</span>
+                            </a>
+                        </article>
+
+                        <!-- Service Card 3: Roof Repair -->
+                        <article class="service-card" data-service="repair">
+                            <div class="service-icon">
+                                <svg viewBox="0 0 64 64" aria-hidden="true">
+                                    <path d="M32 8L4 28v28h56V28L32 8z" fill="none" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M20 32l8 8 16-16" fill="none" stroke="currentColor" stroke-width="3"/>
+                                    <circle cx="48" cy="16" r="8" fill="none" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M48 12v8M44 16h8" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <h3 class="service-title">Roof Repair</h3>
+                            <p class="service-description">
+                                Fast, reliable repair services for leaks, storm damage, and wear.
+                                We restore your roof's integrity with precision work.
+                            </p>
+                            <ul class="service-features">
+                                <li>Emergency Repairs</li>
+                                <li>Leak Detection & Fix</li>
+                                <li>Storm Damage Repair</li>
+                                <li>Flashing Replacement</li>
+                            </ul>
+                            <a href="#contact" class="service-link">
+                                Learn More <span>&rarr;</span>
+                            </a>
+                        </article>
+
+                        <!-- Service Card 4: Inspection -->
+                        <article class="service-card" data-service="inspection">
+                            <div class="service-icon">
+                                <svg viewBox="0 0 64 64" aria-hidden="true">
+                                    <circle cx="28" cy="28" r="16" fill="none" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M40 40l16 16" fill="none" stroke="currentColor" stroke-width="3"/>
+                                    <path d="M28 20v16M20 28h16" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <h3 class="service-title">Roof Inspection</h3>
+                            <p class="service-description">
+                                Comprehensive roof assessments to identify issues before they
+                                become costly problems. Detailed reports with actionable insights.
+                            </p>
+                            <ul class="service-features">
+                                <li>Annual Inspections</li>
+                                <li>Pre-Purchase Assessment</li>
+                                <li>Insurance Documentation</li>
+                                <li>Thermal Imaging</li>
+                            </ul>
+                            <a href="#contact" class="service-link">
+                                Learn More <span>&rarr;</span>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 3: About -->
+            <section id="about" class="section section-about" data-section="2" aria-labelledby="about-title">
+                <div class="section-content">
+                    <div class="about-layout">
+                        <div class="about-visual">
+                            <div class="about-image-container">
+                                <div class="about-image about-image-1">
+                                    <div class="image-placeholder" aria-label="Roofing team at work"></div>
+                                </div>
+                                <div class="about-image about-image-2">
+                                    <div class="image-placeholder" aria-label="Completed roofing project"></div>
+                                </div>
+                                <div class="about-badge">
+                                    <span class="badge-number">15+</span>
+                                    <span class="badge-text">Years of<br>Excellence</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="about-content">
+                            <span class="section-label">About REXX Roofing</span>
+                            <h2 id="about-title" class="section-title">Building Trust<br>One Roof at a Time</h2>
+                            <p class="about-lead">
+                                Since 2010, REXX Roofing LLC has been the go-to choice for
+                                homeowners and businesses seeking quality roofing solutions.
+                            </p>
+                            <p class="about-text">
+                                Our team of certified professionals combines traditional craftsmanship
+                                with modern techniques to deliver results that stand the test of time.
+                                We believe in transparency, quality materials, and workmanship that
+                                exceeds expectations.
+                            </p>
+
+                            <div class="about-features">
+                                <div class="feature-item">
+                                    <div class="feature-icon">
+                                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                                            <path d="M12 2L2 7v10l10 5 10-5V7L12 2z" fill="none" stroke="currentColor" stroke-width="2"/>
+                                            <path d="M12 22V12M2 7l10 5 10-5" fill="none" stroke="currentColor" stroke-width="2"/>
+                                        </svg>
+                                    </div>
+                                    <div class="feature-content">
+                                        <h4>Premium Materials</h4>
+                                        <p>Only the best materials from trusted manufacturers</p>
+                                    </div>
+                                </div>
+                                <div class="feature-item">
+                                    <div class="feature-icon">
+                                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                                            <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/>
+                                            <path d="M8 12l3 3 5-6" fill="none" stroke="currentColor" stroke-width="2"/>
+                                        </svg>
+                                    </div>
+                                    <div class="feature-content">
+                                        <h4>Licensed & Insured</h4>
+                                        <p>Fully certified team with comprehensive coverage</p>
+                                    </div>
+                                </div>
+                                <div class="feature-item">
+                                    <div class="feature-icon">
+                                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                                            <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" fill="none" stroke="currentColor" stroke-width="2"/>
+                                        </svg>
+                                    </div>
+                                    <div class="feature-content">
+                                        <h4>24/7 Emergency Service</h4>
+                                        <p>Round-the-clock support when you need it most</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a href="#contact" class="btn btn-primary">
+                                <span>Work With Us</span>
+                                <span class="btn-icon">&rarr;</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 4: Projects -->
+            <section id="projects" class="section section-projects" data-section="3" aria-labelledby="projects-title">
+                <div class="section-content">
+                    <div class="section-header">
+                        <span class="section-label">Our Work</span>
+                        <h2 id="projects-title" class="section-title">Featured Projects</h2>
+                        <p class="section-description">
+                            A showcase of our finest work. Each project represents our
+                            commitment to excellence and attention to detail.
+                        </p>
+                    </div>
+
+                    <div class="projects-filter" role="tablist" aria-label="Project categories">
+                        <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All Projects</button>
+                        <button class="filter-btn" data-filter="residential" role="tab" aria-selected="false">Residential</button>
+                        <button class="filter-btn" data-filter="commercial" role="tab" aria-selected="false">Commercial</button>
+                        <button class="filter-btn" data-filter="repair" role="tab" aria-selected="false">Repairs</button>
+                    </div>
+
+                    <div class="projects-grid">
+                        <article class="project-card" data-category="residential">
+                            <div class="project-image">
+                                <div class="image-placeholder"></div>
+                                <div class="project-overlay">
+                                    <span class="project-category">Residential</span>
+                                    <h3 class="project-title">Modern Home Renovation</h3>
+                                    <p class="project-location">Downtown District</p>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="project-card" data-category="commercial">
+                            <div class="project-image">
+                                <div class="image-placeholder"></div>
+                                <div class="project-overlay">
+                                    <span class="project-category">Commercial</span>
+                                    <h3 class="project-title">Office Complex</h3>
+                                    <p class="project-location">Business Park</p>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="project-card" data-category="residential">
+                            <div class="project-image">
+                                <div class="image-placeholder"></div>
+                                <div class="project-overlay">
+                                    <span class="project-category">Residential</span>
+                                    <h3 class="project-title">Victorian Restoration</h3>
+                                    <p class="project-location">Historic Quarter</p>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="project-card" data-category="repair">
+                            <div class="project-image">
+                                <div class="image-placeholder"></div>
+                                <div class="project-overlay">
+                                    <span class="project-category">Repair</span>
+                                    <h3 class="project-title">Storm Damage Recovery</h3>
+                                    <p class="project-location">Suburban Area</p>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="project-card" data-category="commercial">
+                            <div class="project-image">
+                                <div class="image-placeholder"></div>
+                                <div class="project-overlay">
+                                    <span class="project-category">Commercial</span>
+                                    <h3 class="project-title">Warehouse Facility</h3>
+                                    <p class="project-location">Industrial Zone</p>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="project-card" data-category="residential">
+                            <div class="project-image">
+                                <div class="image-placeholder"></div>
+                                <div class="project-overlay">
+                                    <span class="project-category">Residential</span>
+                                    <h3 class="project-title">Luxury Estate</h3>
+                                    <p class="project-location">Hillside Estates</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 5: Testimonials -->
+            <section id="testimonials" class="section section-testimonials" data-section="4" aria-labelledby="testimonials-title">
+                <div class="section-content">
+                    <div class="section-header">
+                        <span class="section-label">Testimonials</span>
+                        <h2 id="testimonials-title" class="section-title">What Our Clients Say</h2>
+                        <p class="section-description">
+                            Don't just take our word for it. Here's what our satisfied
+                            customers have to say about their experience with REXX Roofing.
+                        </p>
+                    </div>
+
+                    <div class="testimonials-container">
+                        <div class="testimonials-track">
+                            <article class="testimonial-card">
+                                <div class="testimonial-rating" aria-label="5 out of 5 stars">
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                </div>
+                                <blockquote class="testimonial-text">
+                                    "REXX Roofing exceeded all expectations. Their team was professional,
+                                    punctual, and the quality of work is outstanding. Our new roof looks
+                                    amazing and we haven't had a single issue since installation."
+                                </blockquote>
+                                <div class="testimonial-author">
+                                    <div class="author-avatar">
+                                        <span>JM</span>
+                                    </div>
+                                    <div class="author-info">
+                                        <cite class="author-name">John Mitchell</cite>
+                                        <span class="author-role">Homeowner</span>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="testimonial-card">
+                                <div class="testimonial-rating" aria-label="5 out of 5 stars">
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                </div>
+                                <blockquote class="testimonial-text">
+                                    "As a property manager, I need reliable contractors. REXX Roofing
+                                    has been our go-to for five years. They handle everything from
+                                    routine maintenance to emergency repairs with the same level of care."
+                                </blockquote>
+                                <div class="testimonial-author">
+                                    <div class="author-avatar">
+                                        <span>SK</span>
+                                    </div>
+                                    <div class="author-info">
+                                        <cite class="author-name">Sarah Kendrick</cite>
+                                        <span class="author-role">Property Manager</span>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="testimonial-card">
+                                <div class="testimonial-rating" aria-label="5 out of 5 stars">
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                </div>
+                                <blockquote class="testimonial-text">
+                                    "After a severe storm damaged our commercial building, REXX was
+                                    there within hours. Their emergency response and repair work saved
+                                    us from significant losses. Truly exceptional service."
+                                </blockquote>
+                                <div class="testimonial-author">
+                                    <div class="author-avatar">
+                                        <span>RD</span>
+                                    </div>
+                                    <div class="author-info">
+                                        <cite class="author-name">Robert Davis</cite>
+                                        <span class="author-role">Business Owner</span>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="testimonial-card">
+                                <div class="testimonial-rating" aria-label="5 out of 5 stars">
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                </div>
+                                <blockquote class="testimonial-text">
+                                    "The inspection service was thorough and informative. They found
+                                    issues our previous roofer missed and provided clear options for
+                                    repair. No pressure sales, just honest advice."
+                                </blockquote>
+                                <div class="testimonial-author">
+                                    <div class="author-avatar">
+                                        <span>MP</span>
+                                    </div>
+                                    <div class="author-info">
+                                        <cite class="author-name">Maria Patel</cite>
+                                        <span class="author-role">First-time Homebuyer</span>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="testimonials-nav">
+                            <button class="nav-btn nav-prev" aria-label="Previous testimonial">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M15 18l-6-6 6-6" fill="none" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </button>
+                            <div class="testimonials-dots"></div>
+                            <button class="nav-btn nav-next" aria-label="Next testimonial">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M9 18l6-6-6-6" fill="none" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 6: Contact -->
+            <section id="contact" class="section section-contact" data-section="5" aria-labelledby="contact-title">
+                <div class="section-content">
+                    <div class="contact-layout">
+                        <div class="contact-info">
+                            <span class="section-label">Get In Touch</span>
+                            <h2 id="contact-title" class="section-title">Ready to Start<br>Your Project?</h2>
+                            <p class="contact-description">
+                                Get your free, no-obligation quote today. Our team is ready
+                                to discuss your roofing needs and provide expert solutions.
+                            </p>
+
+                            <div class="contact-details">
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                                            <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" fill="none" stroke="currentColor" stroke-width="2"/>
+                                        </svg>
+                                    </div>
+                                    <div class="contact-text">
+                                        <span class="contact-label">Call Us</span>
+                                        <a href="tel:+15557399-7663" class="contact-value">+1 (555) REXX-ROOF</a>
+                                    </div>
+                                </div>
+
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" fill="none" stroke="currentColor" stroke-width="2"/>
+                                            <path d="M22 6l-10 7L2 6" fill="none" stroke="currentColor" stroke-width="2"/>
+                                        </svg>
+                                    </div>
+                                    <div class="contact-text">
+                                        <span class="contact-label">Email Us</span>
+                                        <a href="mailto:info@rexxroofing.com" class="contact-value">info@rexxroofing.com</a>
+                                    </div>
+                                </div>
+
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" fill="none" stroke="currentColor" stroke-width="2"/>
+                                            <circle cx="12" cy="10" r="3" fill="none" stroke="currentColor" stroke-width="2"/>
+                                        </svg>
+                                    </div>
+                                    <div class="contact-text">
+                                        <span class="contact-label">Visit Us</span>
+                                        <address class="contact-value">123 Roofing Boulevard<br>Your City, State 12345</address>
+                                    </div>
+                                </div>
+
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                                            <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/>
+                                            <path d="M12 6v6l4 2" fill="none" stroke="currentColor" stroke-width="2"/>
+                                        </svg>
+                                    </div>
+                                    <div class="contact-text">
+                                        <span class="contact-label">Business Hours</span>
+                                        <span class="contact-value">Mon-Fri: 8AM - 6PM<br>Sat: 9AM - 2PM</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="social-links">
+                                <a href="#" class="social-link" aria-label="Facebook">
+                                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" fill="none" stroke="currentColor" stroke-width="2"/>
+                                    </svg>
+                                </a>
+                                <a href="#" class="social-link" aria-label="Instagram">
+                                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                                        <rect x="2" y="2" width="20" height="20" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+                                        <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/>
+                                        <circle cx="18" cy="6" r="1" fill="currentColor"/>
+                                    </svg>
+                                </a>
+                                <a href="#" class="social-link" aria-label="LinkedIn">
+                                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                                        <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z" fill="none" stroke="currentColor" stroke-width="2"/>
+                                        <circle cx="4" cy="4" r="2" fill="none" stroke="currentColor" stroke-width="2"/>
+                                    </svg>
+                                </a>
+                                <a href="#" class="social-link" aria-label="YouTube">
+                                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                                        <path d="M22.54 6.42a2.78 2.78 0 00-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 00-1.94 2A29 29 0 001 11.75a29 29 0 00.46 5.33A2.78 2.78 0 003.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 001.94-2 29 29 0 00.46-5.25 29 29 0 00-.46-5.33z" fill="none" stroke="currentColor" stroke-width="2"/>
+                                        <path d="M9.75 15.02l5.75-3.27-5.75-3.27v6.54z" fill="none" stroke="currentColor" stroke-width="2"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="contact-form-container">
+                            <form id="contact-form" class="contact-form" novalidate>
+                                <h3 class="form-title">Request Your Free Quote</h3>
+
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="firstName" class="form-label">First Name *</label>
+                                        <input type="text" id="firstName" name="firstName" class="form-input" required autocomplete="given-name">
+                                        <span class="form-error" aria-live="polite"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="lastName" class="form-label">Last Name *</label>
+                                        <input type="text" id="lastName" name="lastName" class="form-input" required autocomplete="family-name">
+                                        <span class="form-error" aria-live="polite"></span>
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="email" class="form-label">Email Address *</label>
+                                        <input type="email" id="email" name="email" class="form-input" required autocomplete="email">
+                                        <span class="form-error" aria-live="polite"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="phone" class="form-label">Phone Number *</label>
+                                        <input type="tel" id="phone" name="phone" class="form-input" required autocomplete="tel">
+                                        <span class="form-error" aria-live="polite"></span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="service" class="form-label">Service Needed *</label>
+                                    <select id="service" name="service" class="form-select" required>
+                                        <option value="">Select a service...</option>
+                                        <option value="residential">Residential Roofing</option>
+                                        <option value="commercial">Commercial Roofing</option>
+                                        <option value="repair">Roof Repair</option>
+                                        <option value="inspection">Roof Inspection</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                    <span class="form-error" aria-live="polite"></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="message" class="form-label">Project Details</label>
+                                    <textarea id="message" name="message" class="form-textarea" rows="4" placeholder="Tell us about your project..."></textarea>
+                                </div>
+
+                                <div class="form-group form-checkbox">
+                                    <input type="checkbox" id="consent" name="consent" required>
+                                    <label for="consent">I agree to be contacted about my project</label>
+                                    <span class="form-error" aria-live="polite"></span>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary btn-submit">
+                                    <span class="btn-text">Get My Free Quote</span>
+                                    <span class="btn-icon">&rarr;</span>
+                                    <span class="btn-loading" aria-hidden="true">
+                                        <span class="spinner"></span>
+                                    </span>
+                                </button>
+
+                                <div class="form-success" aria-live="polite" hidden>
+                                    <div class="success-icon">&#10003;</div>
+                                    <h4>Thank You!</h4>
+                                    <p>We've received your request and will contact you within 24 hours.</p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- Google Maps Embed -->
+                    <div class="map-container">
+                        <div class="map-wrapper">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.30591910525!2d-74.25986432970718!3d40.697149422113014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1635959446789!5m2!1sen!2s"
+                                width="100%"
+                                height="400"
+                                style="border:0;"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                                title="REXX Roofing LLC Location"
+                                aria-label="Map showing REXX Roofing LLC location">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer" role="contentinfo">
+        <div class="footer-container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <a href="#hero" class="footer-logo">
+                        <span class="logo-icon">R</span>
+                        <span class="logo-name">REXX<span class="logo-highlight">ROOFING</span></span>
+                    </a>
+                    <p class="footer-tagline">
+                        Premium roofing solutions for residential and commercial properties.
+                        Quality craftsmanship, reliable service, lasting results.
+                    </p>
+                </div>
+
+                <nav class="footer-links" aria-label="Footer navigation">
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#services">Residential Roofing</a></li>
+                            <li><a href="#services">Commercial Roofing</a></li>
+                            <li><a href="#services">Roof Repair</a></li>
+                            <li><a href="#services">Roof Inspection</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#projects">Our Projects</a></li>
+                            <li><a href="#testimonials">Testimonials</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Warranty Info</a></li>
+                            <li><a href="#">Financing Options</a></li>
+                            <li><a href="#">Emergency Service</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="copyright">&copy; <span id="current-year">2024</span> REXX Roofing LLC. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Accessibility</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Reduced Motion Preference Handler -->
+    <script>
+        // Check for reduced motion preference and add class to body
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+            document.body.classList.add('reduce-motion');
+        }
+    </script>
+
+    <!-- Three.js Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <!-- GSAP & ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <!-- Custom Scripts -->
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
