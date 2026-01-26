@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML to Video Converter</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎬 HTML to Video Converter</h1>
+            <p class="subtitle">Convert your HTML code into downloadable MP4 or MOV videos</p>
+        </header>
+
+        <main>
+            <div class="editor-section">
+                <div class="section-header">
+                    <h2>HTML Code</h2>
+                    <div class="editor-actions">
+                        <button id="loadSampleBtn" class="btn btn-secondary">Load Sample</button>
+                        <button id="clearBtn" class="btn btn-secondary">Clear</button>
+                    </div>
+                </div>
+                <textarea id="htmlInput" placeholder="Paste your HTML code here..."></textarea>
+                <button id="renderBtn" class="btn btn-primary">Render Preview</button>
+            </div>
+
+            <div class="preview-section">
+                <div class="section-header">
+                    <h2>Preview</h2>
+                    <div class="preview-info">
+                        <span id="dimensionsInfo">--</span>
+                    </div>
+                </div>
+                <div class="preview-container">
+                    <div id="previewFrame" class="preview-frame">
+                        <div class="placeholder-text">
+                            <span>📝</span>
+                            <p>Enter HTML code and click "Render Preview"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-section">
+                <div class="section-header">
+                    <h2>Video Settings</h2>
+                </div>
+
+                <div class="settings-grid">
+                    <div class="setting-group">
+                        <label for="videoDuration">Duration (seconds)</label>
+                        <input type="number" id="videoDuration" value="5" min="1" max="60">
+                    </div>
+
+                    <div class="setting-group">
+                        <label for="frameRate">Frame Rate (FPS)</label>
+                        <select id="frameRate">
+                            <option value="15">15 FPS</option>
+                            <option value="24">24 FPS</option>
+                            <option value="30" selected>30 FPS</option>
+                            <option value="60">60 FPS</option>
+                        </select>
+                    </div>
+
+                    <div class="setting-group">
+                        <label for="videoWidth">Width (px)</label>
+                        <input type="number" id="videoWidth" value="1280" min="320" max="3840">
+                    </div>
+
+                    <div class="setting-group">
+                        <label for="videoHeight">Height (px)</label>
+                        <input type="number" id="videoHeight" value="720" min="240" max="2160">
+                    </div>
+
+                    <div class="setting-group">
+                        <label for="animationType">Animation Type</label>
+                        <select id="animationType">
+                            <option value="static">Static (No Animation)</option>
+                            <option value="scroll" selected>Scroll Down</option>
+                            <option value="scrollUp">Scroll Up</option>
+                            <option value="zoomIn">Zoom In</option>
+                            <option value="zoomOut">Zoom Out</option>
+                            <option value="fadeIn">Fade In</option>
+                        </select>
+                    </div>
+
+                    <div class="setting-group">
+                        <label for="quality">Quality</label>
+                        <select id="quality">
+                            <option value="0.6">Low</option>
+                            <option value="0.8" selected>Medium</option>
+                            <option value="0.95">High</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="recording-controls">
+                    <button id="recordBtn" class="btn btn-record" disabled>
+                        <span class="btn-icon">⏺</span> Start Recording
+                    </button>
+
+                    <div id="recordingStatus" class="recording-status hidden">
+                        <div class="recording-indicator"></div>
+                        <span>Recording... <span id="recordingProgress">0%</span></span>
+                    </div>
+                </div>
+
+                <div id="downloadSection" class="download-section hidden">
+                    <h3>Download Video</h3>
+                    <div class="download-buttons">
+                        <button id="downloadMp4" class="btn btn-download">
+                            <span class="btn-icon">📥</span> Download MP4
+                        </button>
+                        <button id="downloadMov" class="btn btn-download">
+                            <span class="btn-icon">📥</span> Download MOV
+                        </button>
+                    </div>
+                    <div id="videoPreviewContainer" class="video-preview-container">
+                        <video id="videoPreview" controls></video>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>HTML to Video Converter | Supports MP4 & MOV formats</p>
+        </footer>
+    </div>
+
+    <!-- Hidden canvas for rendering -->
+    <canvas id="renderCanvas" style="display: none;"></canvas>
+
+    <script src="app.js"></script>
+</body>
+</html>
