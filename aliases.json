@@ -1,0 +1,17 @@
+{
+  "_comment": "Map non-canonical spellings → canonical. Keys are exact strings found on Wikipedia. Edit freely — the script re-reads this file on every run.",
+  "titles": {
+    "Zootropolis": "Zootopia",
+    "Zootropolis 2": "Zootopia 2",
+    "The Favourite": "The Favorite",
+    "Mr Burton": "Mr. Burton",
+    "Emilia Perez": "Emilia Pérez",
+    "Dune: Part Two": "Dune: Part Two"
+  },
+  "people": {
+    "Chloe Zhao": "Chloé Zhao",
+    "Pedro Almodovar": "Pedro Almodóvar",
+    "Ryusuke Hamaguchi": "Ryûsuke Hamaguchi",
+    "Julia Ducournau": "Julia Ducournau"
+  }
+}

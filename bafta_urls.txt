@@ -1,0 +1,8 @@
+# BAFTA Film Awards — add/remove years as needed
+# Format: one Wikipedia URL per line; lines starting with # are ignored
+
+https://en.wikipedia.org/wiki/78th_British_Academy_Film_Awards
+https://en.wikipedia.org/wiki/77th_British_Academy_Film_Awards
+https://en.wikipedia.org/wiki/76th_British_Academy_Film_Awards
+https://en.wikipedia.org/wiki/75th_British_Academy_Film_Awards
+https://en.wikipedia.org/wiki/74th_British_Academy_Film_Awards

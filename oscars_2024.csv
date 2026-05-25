@@ -1,0 +1,121 @@
+﻿Year,Category,Title,Type,Person,Won,Multiple Names
+2024,Best Picture,Oppenheimer,movie,Emma Thomas; Charles Roven; Christopher Nolan,TRUE,TRUE
+2024,Best Picture,American Fiction,movie,Ben LeClair; Nikos Karamigios; Cord Jefferson; Jermaine Johnson,FALSE,TRUE
+2024,Best Picture,Anatomy of a Fall,movie,Marie-Ange Luciani; David Thion,FALSE,TRUE
+2024,Best Picture,Barbie,movie,David Heyman; Margot Robbie; Tom Ackerley; Robbie Brenner,FALSE,TRUE
+2024,Best Picture,The Holdovers,movie,Mark Johnson,FALSE,FALSE
+2024,Best Picture,Killers of the Flower Moon,movie,Dan Friedkin; Bradley Thomas; Martin Scorsese; Daniel Lupi,FALSE,TRUE
+2024,Best Picture,Maestro,movie,Bradley Cooper; Steven Spielberg; Fred Berner; Amy Durning; Kristie Macosko Krieger,FALSE,TRUE
+2024,Best Picture,Past Lives,movie,David Hinojosa; Christine Vachon; Pamela Koffler,FALSE,TRUE
+2024,Best Picture,Poor Things,movie,Ed Guiney; Andrew Lowe; Yorgos Lanthimos; Emma Stone,FALSE,TRUE
+2024,Best Picture,The Zone of Interest,movie,James Wilson,FALSE,FALSE
+2024,Best Directing,Oppenheimer,movie,Christopher Nolan,TRUE,FALSE
+2024,Best Directing,Anatomy of a Fall,movie,Justine Triet,FALSE,FALSE
+2024,Best Directing,Killers of the Flower Moon,movie,Martin Scorsese,FALSE,FALSE
+2024,Best Directing,Poor Things,movie,Yorgos Lanthimos,FALSE,FALSE
+2024,Best Directing,The Zone of Interest,movie,Jonathan Glazer,FALSE,FALSE
+2024,Best Actor in a Leading Role,Oppenheimer,movie,Cillian Murphy,TRUE,FALSE
+2024,Best Actor in a Leading Role,Maestro,movie,Bradley Cooper,FALSE,FALSE
+2024,Best Actor in a Leading Role,Rustin,movie,Colman Domingo,FALSE,FALSE
+2024,Best Actor in a Leading Role,The Holdovers,movie,Paul Giamatti,FALSE,FALSE
+2024,Best Actor in a Leading Role,American Fiction,movie,Jeffrey Wright,FALSE,FALSE
+2024,Best Actress in a Leading Role,Poor Things,movie,Emma Stone,TRUE,FALSE
+2024,Best Actress in a Leading Role,Nyad,movie,Annette Bening,FALSE,FALSE
+2024,Best Actress in a Leading Role,Killers of the Flower Moon,movie,Lily Gladstone,FALSE,FALSE
+2024,Best Actress in a Leading Role,Anatomy of a Fall,movie,Sandra Hüller,FALSE,FALSE
+2024,Best Actress in a Leading Role,Maestro,movie,Carey Mulligan,FALSE,FALSE
+2024,Best Actor in a Supporting Role,Oppenheimer,movie,Robert Downey Jr.,TRUE,FALSE
+2024,Best Actor in a Supporting Role,American Fiction,movie,Sterling K. Brown,FALSE,FALSE
+2024,Best Actor in a Supporting Role,Killers of the Flower Moon,movie,Robert De Niro,FALSE,FALSE
+2024,Best Actor in a Supporting Role,Barbie,movie,Ryan Gosling,FALSE,FALSE
+2024,Best Actor in a Supporting Role,Poor Things,movie,Mark Ruffalo,FALSE,FALSE
+2024,Best Actress in a Supporting Role,The Holdovers,movie,Da'Vine Joy Randolph,TRUE,FALSE
+2024,Best Actress in a Supporting Role,Oppenheimer,movie,Emily Blunt,FALSE,FALSE
+2024,Best Actress in a Supporting Role,The Color Purple,movie,Danielle Brooks,FALSE,FALSE
+2024,Best Actress in a Supporting Role,Barbie,movie,America Ferrera,FALSE,FALSE
+2024,Best Actress in a Supporting Role,Nyad,movie,Jodie Foster,FALSE,FALSE
+2024,Best Writing (Original Screenplay),Anatomy of a Fall,movie,Justine Triet; Arthur Harari,TRUE,TRUE
+2024,Best Writing (Original Screenplay),The Holdovers,movie,David Hemingson,FALSE,FALSE
+2024,Best Writing (Original Screenplay),Maestro,movie,Bradley Cooper; Josh Singer,FALSE,TRUE
+2024,Best Writing (Original Screenplay),May December,movie,Screenplay by Samy Burch; Story by Samy Burch; Alex Mechanik,FALSE,TRUE
+2024,Best Writing (Original Screenplay),Past Lives,movie,Celine Song,FALSE,FALSE
+2024,Best Writing (Adapted Screenplay),American Fiction,movie,Cord Jefferson,TRUE,FALSE
+2024,Best Writing (Adapted Screenplay),Barbie,movie,Greta Gerwig; Noah Baumbach,FALSE,TRUE
+2024,Best Writing (Adapted Screenplay),Oppenheimer,movie,Christopher Nolan,FALSE,FALSE
+2024,Best Writing (Adapted Screenplay),Poor Things,movie,Tony McNamara,FALSE,FALSE
+2024,Best Writing (Adapted Screenplay),The Zone of Interest,movie,Jonathan Glazer,FALSE,FALSE
+2024,Best Animated Feature Film,The Boy and the Heron,movie,Hayao Miyazaki; Toshio Suzuki,TRUE,TRUE
+2024,Best Animated Feature Film,Elemental,movie,Peter Sohn; Denise Ream,FALSE,TRUE
+2024,Best Animated Feature Film,Nimona,movie,Nick Bruno; Troy Quane; Karen Ryan; Julie Zackary,FALSE,TRUE
+2024,Best Animated Feature Film,Robot Dreams,movie,Pablo Berger; Ibon Cormenzana; Ignasi Estapé; Sandra Tapia Díaz,FALSE,TRUE
+2024,Best Animated Feature Film,Spider-Man: Across the Spider-Verse,movie,Kemp Powers; Justin K. Thompson; Phil Lord; Christopher Miller; Amy Pascal,FALSE,TRUE
+2024,Best International Feature Film,The Zone of Interest,movie,(United Kingdom) in German; Polish; Yiddish – directed by Jonathan Glazer,TRUE,TRUE
+2024,Best International Feature Film,Io capitano,movie,(Italy) in Wolof; French – directed by Matteo Garrone,FALSE,TRUE
+2024,Best International Feature Film,Perfect Days,movie,(Japan) in Japanese – directed by Wim Wenders,FALSE,FALSE
+2024,Best International Feature Film,Society of the Snow,movie,(Spain) in Spanish – directed by J. A. Bayona,FALSE,FALSE
+2024,Best International Feature Film,The Teachers' Lounge,movie,(Germany) in German; Turkish; Polish; English – directed by İlker Çatak,FALSE,TRUE
+2024,Best Documentary Feature Film,20 Days in Mariupol,movie,Mstyslav Chernov; Michelle Mizner; Raney Aronson-Rath,TRUE,TRUE
+2024,Best Documentary Feature Film,Bobi Wine: The People's President,movie,Moses Bwayo; Christopher Sharp; John Battsek,FALSE,TRUE
+2024,Best Documentary Feature Film,The Eternal Memory,movie,Maite Alberdi,FALSE,FALSE
+2024,Best Documentary Feature Film,Four Daughters,movie,Kaouther Ben Hania; Nadim Cheikhrouha,FALSE,TRUE
+2024,Best Documentary Feature Film,To Kill a Tiger,movie,Nisha Pahuja; Cornelia Principe; David Oppenheim,FALSE,TRUE
+2024,Best Documentary Short Film,The Last Repair Shop,movie,Ben Proudfoot; Kris Bowers,TRUE,TRUE
+2024,Best Documentary Short Film,The ABCs of Book Banning,movie,Sheila Nevins; Trish Adlesic,FALSE,TRUE
+2024,Best Documentary Short Film,The Barber of Little Rock,movie,John Hoffman; Christine Turner,FALSE,TRUE
+2024,Best Documentary Short Film,Island in Between,movie,S. Leo Chiang; Jean Tsien,FALSE,TRUE
+2024,Best Documentary Short Film,Nǎi Nai & Wài Pó,movie,Sean Wang; Sam Davis,FALSE,TRUE
+2024,Best Short Film (Live Action),The Wonderful Story of Henry Sugar,movie,Wes Anderson; Steven Rales,TRUE,TRUE
+2024,Best Short Film (Live Action),The After,movie,Misan Harriman; Nicky Bentham,FALSE,TRUE
+2024,Best Short Film (Live Action),Invincible,movie,Vincent René-Lortie; Samuel Caron,FALSE,TRUE
+2024,Best Short Film (Live Action),Knight of Fortune,movie,Lasse Lyskjær Noer; Christian Norlyk,FALSE,TRUE
+2024,Best Short Film (Live Action),"Red, White and Blue",movie,Nazrin Choudhury; Sara McFarlane,FALSE,TRUE
+2024,Best Short Film (Animated),War Is Over! Inspired by the Music of John and Yoko,movie,Dave Mullins; Brad Booker,TRUE,TRUE
+2024,Best Short Film (Animated),Letter to a Pig,movie,Tal Kantor; Amit R. Gicelter,FALSE,TRUE
+2024,Best Short Film (Animated),Ninety-Five Senses,movie,Jared; Jerusha Hess,FALSE,TRUE
+2024,Best Short Film (Animated),Our Uniform,movie,Yegane Moghaddam,FALSE,FALSE
+2024,Best Short Film (Animated),Pachyderme,movie,Stéphanie Clément; Marc Rius,FALSE,TRUE
+2024,Best Music (Original Score),Oppenheimer,movie,Ludwig Göransson,TRUE,FALSE
+2024,Best Music (Original Score),American Fiction,movie,Laura Karpman,FALSE,FALSE
+2024,Best Music (Original Score),Indiana Jones and the Dial of Destiny,movie,John Williams,FALSE,FALSE
+2024,Best Music (Original Score),Killers of the Flower Moon,movie,Robbie Robertson (p.n.),FALSE,FALSE
+2024,Best Music (Original Score),Poor Things,movie,Jerskin Fendrix,FALSE,FALSE
+2024,Best Music (Original Song),Barbie,movie,"""What Was I Made For?"" from  – Music; lyrics by Billie Eilish; Finneas O'Connell",TRUE,TRUE
+2024,Best Music (Original Song),Flamin' Hot,movie,"""The Fire Inside"" from  – Music; lyrics by Diane Warren",FALSE,TRUE
+2024,Best Music (Original Song),Barbie,movie,"""I'm Just Ken"" from  – Music; lyrics by Mark Ronson; Andrew Wyatt",FALSE,TRUE
+2024,Best Music (Original Song),American Symphony,movie,"""It Never Went Away"" from  – Music; lyrics by Jon Batiste; Dan Wilson",FALSE,TRUE
+2024,Best Music (Original Song),Killers of the Flower Moon,movie,"""Wahzhazhe (A Song for My People)"" from  – Music; lyrics by Scott George",FALSE,TRUE
+2024,Best Sound,The Zone of Interest,movie,Tarn Willers; Johnnie Burn,TRUE,TRUE
+2024,Best Sound,The Creator,movie,Ian Voigt; Erik Aadahl; Ethan Van der Ryn; Tom Ozanich; Dean Zupancic,FALSE,TRUE
+2024,Best Sound,Maestro,movie,Steven A. Morrow; Richard King; Jason Ruder; Tom Ozanich; Dean Zupancic,FALSE,TRUE
+2024,Best Sound,Mission: Impossible – Dead Reckoning Part One,movie,Chris Munro; James H. Mather; Chris Burdon; Mark Taylor,FALSE,TRUE
+2024,Best Sound,Oppenheimer,movie,Willie Burton; Richard King; Gary A. Rizzo; Kevin O'Connell,FALSE,TRUE
+2024,Best Production Design,Poor Things,movie,Production Design: James Price; Shona Heath; Set Decoration: Zsuzsa Mihalek,TRUE,TRUE
+2024,Best Production Design,Barbie,movie,Production Design: Sarah Greenwood; Set Decoration: Katie Spencer,FALSE,TRUE
+2024,Best Production Design,Killers of the Flower Moon,movie,Production Design: Jack Fisk; Set Decoration: Adam Willis,FALSE,TRUE
+2024,Best Production Design,Napoleon,movie,Production Design: Arthur Max; Set Decoration: Elli Griff,FALSE,TRUE
+2024,Best Production Design,Oppenheimer,movie,Production Design: Ruth De Jong; Set Decoration: Claire Kaufman,FALSE,TRUE
+2024,Best Cinematography,Oppenheimer,movie,Hoyte van Hoytema,TRUE,FALSE
+2024,Best Cinematography,El Conde,movie,Edward Lachman,FALSE,FALSE
+2024,Best Cinematography,Killers of the Flower Moon,movie,Rodrigo Prieto,FALSE,FALSE
+2024,Best Cinematography,Maestro,movie,Matthew Libatique,FALSE,FALSE
+2024,Best Cinematography,Poor Things,movie,Robbie Ryan,FALSE,FALSE
+2024,Best Makeup and Hairstyling,Poor Things,movie,Nadia Stacey; Mark Coulier; Josh Weston,TRUE,TRUE
+2024,Best Makeup and Hairstyling,Golda,movie,Karen Hartley Thomas; Suzi Battersby; Ashra Kelly-Blue,FALSE,TRUE
+2024,Best Makeup and Hairstyling,Maestro,movie,Kazu Hiro; Kay Georgiou; Lori McCoy-Bell,FALSE,TRUE
+2024,Best Makeup and Hairstyling,Oppenheimer,movie,Luisa Abel,FALSE,FALSE
+2024,Best Makeup and Hairstyling,Society of the Snow,movie,Ana López-Puigcerver; David Martí; Montse Ribé,FALSE,TRUE
+2024,Best Costume Design,Poor Things,movie,Holly Waddington,TRUE,FALSE
+2024,Best Costume Design,Barbie,movie,Jacqueline Durran,FALSE,FALSE
+2024,Best Costume Design,Killers of the Flower Moon,movie,Jacqueline West,FALSE,FALSE
+2024,Best Costume Design,Napoleon,movie,Janty Yates; Dave Crossman,FALSE,TRUE
+2024,Best Costume Design,Oppenheimer,movie,Ellen Mirojnick,FALSE,FALSE
+2024,Best Film Editing,Oppenheimer,movie,Jennifer Lame,TRUE,FALSE
+2024,Best Film Editing,Anatomy of a Fall,movie,Laurent Sénéchal,FALSE,FALSE
+2024,Best Film Editing,The Holdovers,movie,Kevin Tent,FALSE,FALSE
+2024,Best Film Editing,Killers of the Flower Moon,movie,Thelma Schoonmaker,FALSE,FALSE
+2024,Best Film Editing,Poor Things,movie,Yorgos Mavropsaridis,FALSE,FALSE
+2024,Best Visual Effects,Godzilla Minus One,movie,Takashi Yamazaki; Kiyoko Shibuya; Masaki Takahashi; Tatsuji Nojima,TRUE,TRUE
+2024,Best Visual Effects,The Creator,movie,Jay Cooper; Ian Comley; Andrew Roberts; Neil Corbould,FALSE,TRUE
+2024,Best Visual Effects,Guardians of the Galaxy Vol. 3,movie,Stéphane Ceretti; Alexis Wajsbrot; Guy Williams; Theo Bialek,FALSE,TRUE
+2024,Best Visual Effects,Mission: Impossible – Dead Reckoning Part One,movie,Alex Wuttke; Simone Coco; Jeff Sutherland; Neil Corbould,FALSE,TRUE
+2024,Best Visual Effects,Napoleon,movie,Charley Henley; Luc-Ewen Martin-Fenouillet; Simone Coco; Neil Corbould,FALSE,TRUE
